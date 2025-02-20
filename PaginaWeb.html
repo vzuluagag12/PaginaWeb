@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #FA8072;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #FA8072;
+        }
+        p {
+            font-size: 18px;
+        }
+        a {
+            color: #1E90FF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            width: 200px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #FA8072;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #E57373;
+        }
+    </style>
+</head>
+<body>
+    <h1>Valentina Zuluaga Gonzalez</h1>
+    <p>Soy una entusiasta de la tecnología, apasionada por los videojuegos y fascinada por la astronomía.</p>
+    <a href="https://www.instagram.com/asvack?igsh=Z2pxa2trM3FpNHI2" target="_blank">Visita el Instagram de mi negocio de tecnología</a>
+    <br>
+    <img src="https://wallpapers.com/images/high/luna-eclipse-lunar-galaxia-u0031v0j4tg97pec.jpg" alt="Imagen de perfil">
+    <br>
+    <button id="miBoton">Haz clic aquí</button>
+    <script>
+        document.getElementById("miBoton").onclick = function() {
+            console.log("Hola Mundo desde JavaScript");
+            alert("Hola Mundo desde JavaScript");
+        };
+    </script>
+</body>
+</html>
